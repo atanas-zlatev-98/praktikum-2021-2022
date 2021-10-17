@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+h1 {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    margin:  10px 30px;
+    padding: 10px;
+    border: 10px solid green;
+    display: none;
+}
+#div-container {
+    padding: 12px;
+    background: blue;
+    width: 395px;
+    font-size: 0px;
+    display: none;
+}
+.div-with-text{
+    background-color: rgb(173, 255, 47,0.47);
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.div-with-text:nth-child(6){
+  margin-right: 0px;
+}
+
+.parents-container {
+    background-color: blue;
+    width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+.child-container {
+    background-color: yellow;
+    height: 85px;
+}
+
+.another-element{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+#navigation {
+    background-color: black;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    padding: 12px;
+}
+
+#navigation .nav-button {
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #292929;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+#navigation .nav-button:hover {
+    background-color: #414141;
+}
+#navigation .nav-button + .nav-button {
+    border-left: 1px solid #636363;
+}
+
+#main-content{
+padding-top: 75px;
+}
